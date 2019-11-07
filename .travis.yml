@@ -6,6 +6,6 @@ install:
 script:
   - coverage run -m unittest
 
-after success:
+after_success:
  - coveralls
 
